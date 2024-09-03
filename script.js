@@ -13,5 +13,6 @@ setInterval(() => {
 }, 10);
 let date = new Date();
 if (date.getHours() >= 19 && date.getHours() <= 7) {
-  document.body.classList.add("night");
+  let body = document.getElementsByTagName("body");
+  body[0].classList.add("night");
 }
