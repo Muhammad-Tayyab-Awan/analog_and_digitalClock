@@ -2,3 +2,14 @@
   padding: 0;
   margin: 0;
 }
+.main {
+  margin: auto;
+  width: 75vw;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main img {
+  height: 80%;
+}
