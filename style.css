@@ -48,4 +48,5 @@ body {
   top: 15.5%;
   left: 49.5%;
   transform-origin: bottom;
+  filter: invert(1);
 }
