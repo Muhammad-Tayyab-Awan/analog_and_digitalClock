@@ -3,10 +3,12 @@
   margin: 0;
 }
 .image-container {
-  width: 40vw;
-  height: 70vh;
+  margin: 1rem auto 0rem;
+  width: 45vw;
+  height: 75vh;
   background-color: rebeccapurple;
   background-image: url("/images/clock.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center center;
 }
