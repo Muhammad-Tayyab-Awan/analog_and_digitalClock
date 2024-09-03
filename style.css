@@ -2,14 +2,19 @@
   padding: 0;
   margin: 0;
 }
-.main {
+/* .main {
   margin: auto;
   width: 75vw;
   height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.main img {
-  height: 80%;
+} */
+.main .image-container {
+  width: 40vw;
+  height: 40vh;
+  background-image: url("/images/clock.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
 }
