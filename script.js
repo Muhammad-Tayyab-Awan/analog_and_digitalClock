@@ -3,7 +3,6 @@ setInterval(() => {
   let hours = date.getHours();
   let minutes = date.getMinutes();
   let seconds = date.getSeconds();
-  console.log(hours);
   let hour_needle = document.querySelector(".hours");
   let minute_needle = document.querySelector(".minutes");
   let second_needle = document.querySelector(".seconds");
