@@ -15,8 +15,8 @@
 }
 .hours {
   position: absolute;
-  width: 10px;
-  height: 90px;
+  width: 1.5%;
+  height: 24%;
   border-radius: 10px;
   background-color: black;
   z-index: 2;
