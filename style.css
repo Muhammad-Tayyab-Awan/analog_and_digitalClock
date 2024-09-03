@@ -3,7 +3,7 @@
   margin: 0;
 }
 .image-container {
-  margin: 1rem auto 0rem;
+  margin: auto;
   width: 45vw;
   height: 75vh;
   background-color: rebeccapurple;
