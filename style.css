@@ -20,26 +20,26 @@
   border-radius: 10px;
   background-color: black;
   z-index: 2;
-  top: 49.5%;
+  top: 25.5%;
   left: 49.5%;
 }
 .minutes {
   position: absolute;
-  width: 10px;
-  height: 110px;
+  width: 1.5%;
+  height: 24%;
   border-radius: 10px;
-  background-color: red;
-  z-index: 3;
-  bottom: 50%;
-  right: 48.75%;
+  background-color: black;
+  z-index: 2;
+  top: 25.5%;
+  left: 49.5%;
 }
 .seconds {
   position: absolute;
-  width: 10px;
-  height: 130px;
+  width: 1.5%;
+  height: 24%;
   border-radius: 10px;
-  background-color: brown;
-  z-index: 4;
+  background-color: black;
+  z-index: 2;
+  top: 25.5%;
   left: 49.5%;
-  bottom: 50%;
 }
