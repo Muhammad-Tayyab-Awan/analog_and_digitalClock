@@ -10,4 +10,4 @@ setInterval(() => {
   hour_needle.style.transform = `rotate(${30 * hours + minutes / 2}deg)`;
   minute_needle.style.transform = `rotate(${6 * minutes}deg)`;
   second_needle.style.transform = `rotate(${6 * seconds}deg)`;
-}, 1000);
+}, 10);
