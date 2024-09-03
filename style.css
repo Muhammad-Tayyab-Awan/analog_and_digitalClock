@@ -54,6 +54,6 @@ body {
 .night .image-container {
   filter: invert(1);
 }
-.night .image-container div {
+.night .image-container > div {
   background-color: white;
 }
