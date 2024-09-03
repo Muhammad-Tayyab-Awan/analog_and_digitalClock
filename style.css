@@ -48,3 +48,12 @@ body {
   left: 49.5%;
   transform-origin: bottom;
 }
+.night {
+  background-color: black;
+}
+.night .image-container {
+  filter: invert(1);
+}
+.night .image-container div {
+  background-color: white;
+}
