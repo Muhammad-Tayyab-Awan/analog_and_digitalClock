@@ -2,19 +2,11 @@
   padding: 0;
   margin: 0;
 }
-/* .main {
-  margin: auto;
-  width: 75vw;
-  height: 75vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-.main .image-container {
+.image-container {
   width: 40vw;
-  height: 40vh;
+  height: 70vh;
+  background-color: rebeccapurple;
   background-image: url("/images/clock.png");
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center center;
+  background-size: cover;
 }
