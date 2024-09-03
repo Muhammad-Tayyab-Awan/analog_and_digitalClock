@@ -49,11 +49,6 @@ body {
   transform-origin: bottom;
 }
 .night {
-  background-color: black;
-}
-.night .image-container {
+  /* background-color: black; */
   filter: invert(1);
-}
-.night .image-container > div {
-  background-color: white;
 }
