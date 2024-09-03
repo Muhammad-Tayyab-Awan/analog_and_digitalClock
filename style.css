@@ -49,6 +49,6 @@ body {
   transform-origin: bottom;
 }
 .night {
-  /* background-color: black; */
+  background-color: black;
   filter: invert(1);
 }
