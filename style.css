@@ -7,8 +7,8 @@ body {
 }
 .image-container {
   margin: auto;
-  width: 50vw;
-  height: 50vw;
+  width: 40vw;
+  height: 40vw;
   background-image: url("/images/clock.png");
   background-repeat: no-repeat;
   background-size: contain;
