@@ -11,4 +11,38 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
+  position: relative;
+}
+.hours {
+  position: absolute;
+  width: 10px;
+  height: 90px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: black;
+  z-index: 2;
+  top: 49.5%;
+  left: 49.5%;
+}
+.minutes {
+  position: absolute;
+  width: 10px;
+  height: 110px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: red;
+  z-index: 3;
+  top: 49.5%;
+  left: 49.5%;
+}
+.seconds {
+  position: absolute;
+  width: 10px;
+  height: 130px;
+  border-radius: 10px;
+  background-color: brown;
+  z-index: 4;
+  /* top: 49.5%; */
+  left: 49.5%;
+  bottom: 50%;
 }
