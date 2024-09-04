@@ -15,9 +15,11 @@ setInterval(() => {
   let hoursBox = document.querySelector(".dhours");
   let minutesBox = document.querySelector(".dminutes");
   let secondsBox = document.querySelector(".dseconds");
+  let timeBox = document.querySelector(".dtime");
   hoursBox.innerText = date.getHours();
   minutesBox.innerText = date.getMinutes();
   secondsBox.innerText = date.getSeconds();
+  timeBox.innerText = (date.getHours());
 }, 10);
 
 let date = new Date();
