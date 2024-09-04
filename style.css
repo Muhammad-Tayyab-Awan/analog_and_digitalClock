@@ -48,6 +48,12 @@ body {
   left: 49.75%;
   transform-origin: bottom;
 }
+.digital-clock {
+  position: absolute;
+  height: 10%;
+  width: 35%;
+  background-color: black;
+}
 .night {
   background-color: black;
   filter: invert(1);
