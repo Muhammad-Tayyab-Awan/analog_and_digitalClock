@@ -56,6 +56,14 @@ body {
   top: 28%;
   z-index: 1;
   background-color: yellow;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.digital-clock div {
+  height: 90%;
+  width: 23%;
+  background-color: black;
 }
 .night {
   background-color: black;
