@@ -11,7 +11,7 @@ setInterval(() => {
   second_needle.style.transform = `rotate(${6 * seconds}deg)`;
 }, 10);
 let date = new Date();
-if (date.getHours() >= 19 || date.getHours() <= 7) {
+if (date.getHours() >= 19 || date.getHours() < 7) {
   let body = document.getElementsByTagName("body");
   body[0].classList.add("night");
 }
