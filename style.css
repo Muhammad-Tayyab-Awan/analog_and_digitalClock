@@ -85,3 +85,8 @@ body {
     font-size: smaller;
   }
 }
+@media screen and (max-width: 550px) {
+  .digital-clock div {
+    font-size: x-small;
+  }
+}
