@@ -53,7 +53,9 @@ body {
   height: 10%;
   width: 35%;
   left: 32.5%;
-  background-color: black;
+  top: 28%;
+  z-index: 1;
+  background-color: yellow;
 }
 .night {
   background-color: black;
