@@ -38,7 +38,7 @@ body {
   top: 20%;
   left: 50%;
   transform-origin: bottom;
-  filter: invert(1);
+  display: none;
 }
 .seconds {
   position: absolute;
@@ -50,7 +50,7 @@ body {
   top: 14.5%;
   left: 49.75%;
   transform-origin: bottom;
-  display: none;
+  filter: invert(1);
 }
 .digital-clock {
   position: absolute;
