@@ -70,7 +70,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: large;
 }
 .night {
   background-color: black;
