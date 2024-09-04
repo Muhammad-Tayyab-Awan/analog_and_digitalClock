@@ -14,7 +14,6 @@ body {
   background-size: contain;
   background-position: center center;
   position: relative;
-  filter: invert(1);
 }
 .hours {
   position: absolute;
@@ -24,9 +23,8 @@ body {
   background-color: black;
   z-index: 2;
   top: 26%;
-  left: 49.5%;
+  left: 50%;
   transform-origin: bottom;
-  display: none;
 }
 .minutes {
   position: absolute;
@@ -38,7 +36,6 @@ body {
   top: 20%;
   left: 50%;
   transform-origin: bottom;
-  display: none;
 }
 .seconds {
   position: absolute;
@@ -48,9 +45,8 @@ body {
   background-color: black;
   z-index: 2;
   top: 15%;
-  left: 49.75%;
+  left: 50%;
   transform-origin: bottom;
-  filter: invert(1);
 }
 .digital-clock {
   position: absolute;
