@@ -77,6 +77,11 @@ body {
 }
 @media screen and (max-width: 778px) {
   .digital-clock div {
-    font-size: medium;
+    font-size: small;
+  }
+}
+@media screen and (max-width: 660px) {
+  .digital-clock div {
+    font-size: smaller;
   }
 }
