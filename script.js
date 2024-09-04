@@ -26,6 +26,8 @@ setInterval(() => {
   } else {
     if (date.getHours() < 10) {
       fullHours = "0" + date.getHours();
+    } else {
+      fullHours = date.getHours();
     }
   }
   hoursBox.innerText = fullHours;
