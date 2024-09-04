@@ -7,7 +7,7 @@ setInterval(() => {
   let minutesBox = document.getElementsByClassName("dminutes");
   let secondsBox = document.getElementsByClassName("dsecondss");
   hoursBox[0].innerText = hours;
-  console.log(hoursBox);
+  console.log(hoursBox[0]);
   minutesBox[0].innerText = minutes;
   secondsBox[0].innerText = seconds;
   let hour_needle = document.querySelector(".hours");
