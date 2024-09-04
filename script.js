@@ -18,7 +18,7 @@ setInterval(() => {
   hoursBox.innerText = date.getHours();
   minutesBox.innerText = date.getMinutes();
   secondsBox.innerText = date.getSeconds();
-}, 1000);
+}, 10);
 
 let date = new Date();
 if (date.getHours() >= 19 || date.getHours() < 7) {
