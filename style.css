@@ -50,6 +50,7 @@ body {
   top: 14.5%;
   left: 49.75%;
   transform-origin: bottom;
+  display: none;
 }
 .digital-clock {
   position: absolute;
