@@ -20,8 +20,8 @@ setInterval(() => {
   let hoursBox = document.getElementsByClassName("dhours");
   let minutesBox = document.getElementsByClassName("dminutes");
   let secondsBox = document.getElementsByClassName("dsecondss");
-  hoursBox[0].innerText = hours;
+  hoursBox[0].innerText = date.getHours();
   console.log(hoursBox[0]);
-  minutesBox[0].innerText = minutes;
-  secondsBox[0].innerText = seconds;
+  minutesBox[0].innerText = date.getMinutes();
+  secondsBox[0].innerText = date.getSeconds();
 }, 1000);
