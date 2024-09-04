@@ -12,13 +12,13 @@ setInterval(() => {
 }, 10);
 setInterval(() => {
   let date = new Date();
-  let hoursBox = document.getElementsByClassName("dhours");
-  let minutesBox = document.getElementsByClassName("dminutes");
-  let secondsBox = document.getElementsByClassName("dsecondss");
-  hoursBox[0].innerText = date.getHours();
-  console.log(hoursBox[0]);
-  minutesBox[0].innerText = date.getMinutes();
-  secondsBox[0].innerText = date.getSeconds();
+  let hoursBox = document.querySelector(".dhours");
+  let minutesBox = document.querySelector(".dminutes");
+  let secondsBox = document.querySelector(".dseconds");
+  hoursBox.innerText = date.getHours();
+  minutesBox.innerText = date.getMinutes();
+  secondsBox.innerText = date.getSeconds();
+  console.log()
 }, 1000);
 
 let date = new Date();
