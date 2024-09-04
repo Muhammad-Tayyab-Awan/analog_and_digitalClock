@@ -59,8 +59,10 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  border-radius: 0.5rem;
 }
 .digital-clock div {
+  border-radius: inherit;
   height: 80%;
   width: 20%;
   background-color: black;
