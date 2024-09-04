@@ -18,7 +18,7 @@ setInterval(() => {
   hoursBox.innerText = date.getHours();
   minutesBox.innerText = date.getMinutes();
   secondsBox.innerText = date.getSeconds();
-  console.log()
+  console.log(date.getHours());
 }, 1000);
 
 let date = new Date();
