@@ -19,7 +19,7 @@ setInterval(() => {
   hoursBox.innerText = date.getHours();
   minutesBox.innerText = date.getMinutes();
   secondsBox.innerText = date.getSeconds();
-  timeBox.innerText = (date.getHours());
+  timeBox.innerText = date.getHours() >= 12 ? "PM" : "AM";
 }, 10);
 
 let date = new Date();
