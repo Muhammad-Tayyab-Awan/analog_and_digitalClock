@@ -21,6 +21,8 @@ setInterval(() => {
       ? date.getHours() < 10
         ? "0" + (date.getHours() - 12)
         : date.getHours()
+      : date.getHours() < 10
+      ? "0" + date.getHours()
       : date.getHours();
   minutesBox.innerText = date.getMinutes();
   secondsBox.innerText = date.getSeconds();
