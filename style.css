@@ -25,6 +25,7 @@ body {
   top: 25.75%;
   left: 49.5%;
   transform-origin: bottom;
+  display: none;
 }
 .minutes {
   position: absolute;
@@ -34,7 +35,7 @@ body {
   background-color: black;
   z-index: 2;
   top: 20%;
-  left: 49.5%;
+  left: 50%;
   transform-origin: bottom;
 }
 .seconds {
