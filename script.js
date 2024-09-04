@@ -18,7 +18,6 @@ setInterval(() => {
   hoursBox.innerText = date.getHours();
   minutesBox.innerText = date.getMinutes();
   secondsBox.innerText = date.getSeconds();
-  console.log(date.getHours());
 }, 1000);
 
 let date = new Date();
@@ -26,4 +25,3 @@ if (date.getHours() >= 19 || date.getHours() < 7) {
   let body = document.getElementsByTagName("body");
   body[0].classList.add("night");
 }
-console.log("Tayyab");
