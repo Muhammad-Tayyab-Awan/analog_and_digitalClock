@@ -14,8 +14,6 @@ body {
   background-size: contain;
   background-position: center center;
   position: relative;
-  border: 1px solid red;
-  border-radius: 50%;
 }
 .hours {
   position: absolute;
