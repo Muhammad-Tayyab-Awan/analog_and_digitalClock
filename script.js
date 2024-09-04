@@ -26,7 +26,8 @@ setInterval(() => {
       : date.getHours();
   minutesBox.innerText =
     date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes();
-  secondsBox.innerText = date.getSeconds();
+  secondsBox.innerText =
+    date.getSeconds() < 10 ? "0" + date.getSeconds() : date.getSeconds();
   timeBox.innerText = date.getHours() >= 12 ? "PM" : "AM";
 }, 10);
 
