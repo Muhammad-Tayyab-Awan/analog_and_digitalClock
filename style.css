@@ -75,6 +75,9 @@ body {
   background-color: black;
   filter: invert(1);
 }
+.night .minutes {
+  background-color: black;
+}
 @media screen and (max-width: 778px) {
   .digital-clock div {
     font-size: small;
