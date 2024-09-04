@@ -38,6 +38,7 @@ body {
   top: 20%;
   left: 50%;
   transform-origin: bottom;
+  filter: invert(1);
 }
 .seconds {
   position: absolute;
