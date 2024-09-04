@@ -17,8 +17,16 @@ setInterval(() => {
   let secondsBox = document.querySelector(".dseconds");
   let timeBox = document.querySelector(".dtime");
   let fullHours;
-  if (date.getHours()) {
-    
+  if (date.getHours() > 12) {
+    if (date.getHours() < 22) {
+      fullHours = "0" + (date.getHours() - 12);
+    } else {
+      fullHours = date.getHours() - 12;
+    }
+  } else {
+    if (date.getHours() < 10) {
+      fullHours = date.getHours()
+    }
   }
   hoursBox.innerText = fullHours;
   minutesBox.innerText =
