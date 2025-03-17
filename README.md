@@ -6,9 +6,10 @@ Welcome to **Clockify**, a stylish and functional Analog and Digital Clock web a
 1. [About](#about)  
 2. [Features](#features)  
 3. [Technologies Used](#technologies-used)  
-4. [Setup Instructions](#setup-instructions)  
-5. [Future Plans](#future-plans)  
-6. [Contact](#contact)  
+4. [Setup Instructions](#setup-instructions)
+5. [Contributors](#contributors)
+6. [Future Plans](#future-plans)  
+7. [Contact](#contact)  
 
 ---
 
@@ -34,5 +35,11 @@ Welcome to **Clockify**, a stylish and functional Analog and Digital Clock web a
 
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/yourusername/analog-digital-clock.git  
+   git clone https://github.com/yourusername/analog-digital-clock.git
 
+## Contributors
+
+<a href="https://github.com/Muhammad-Tayyab-Awan/analog_and_digitalClock/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Muhammad-Tayyab-Awan/analog_and_digitalClock" />
+</a>
+  
